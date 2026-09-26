@@ -22,8 +22,10 @@ PRIORITY rules:
 - Urgent: active outages, security/data incidents, anything blocking a client's core operations right now
 - High: time-sensitive requests with a near-term deadline (e.g. "before Friday's payment")
 - Medium: real business requests with no hard deadline (e.g. sales inquiries, scheduling asks)
-- Low: feature requests or ideas with no deadline ("no deadline", "for a future update")
- 
+- Low: feature requests, ideas, or routine how-to/informational questions with no deadline and nothing
+  blocked — including explicit signals like "no deadline," "for a future update," "not blocking anything,"
+  or "just easier"
+
 ROUTING rules:
 - Sales Team: new business, pricing, demos
 - Client Success: general support, feature requests, account access issues (non-security)
