@@ -24,7 +24,3 @@ chain = prompt | structured_llm
  
 def triage_request(request_text: str) -> TriageResult:
     return chain.invoke({"request": request_text})
- 
-# if __name__ == "__main__":
-#     result = triage_request("We accidentally uploaded a spreadsheet containing customer contact information to the wrong workspace. We need immediate help removing access.")
-#     print(result)
