@@ -4,6 +4,10 @@ A prototype that takes an unstructured client request and returns a summary, cat
 
 ## Demo
 
+🔗 **Live app:** [node-solutions-triage-namitha.streamlit.app](https://node-solutions-triage-namitha.streamlit.app/)
+
+## Running locally
+
 `streamlit run app.py` — paste a request, or load one of the 6 mock requests from the sidebar dropdown.
 
 ## Approach
